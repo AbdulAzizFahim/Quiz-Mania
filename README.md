@@ -1,6 +1,6 @@
 # Quiz Mania
 
-## Software Development (I) project
+## Software Development (II) project
 **Project Name:** Quiz Mania 
 
 **Project Type:** Quiz game  
