@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainGame">
+
+
+    <TextView
+
+        android:layout_width="810dp"
+        android:layout_height="130dp"
+        android:layout_x="0dp"
+        android:layout_y="-2dp"
+        android:background="#F96167 "
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="40dp"
+        android:paddingStart="100dp"
+        android:text="Quiz Mania"
+        android:textColor="#050505"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/gameText"
+        android:layout_width="328dp"
+        android:layout_height="146dp"
+        android:layout_x="45dp"
+        android:layout_y="199dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="207dp"
+        android:layout_height="92dp"
+        android:layout_x="110dp"
+        android:layout_y="561dp"
+        android:text="Submit"
+        android:textSize="40dp"
+
+        />
+
+    <EditText
+        android:id="@+id/myText"
+        android:layout_width="274dp"
+        android:layout_height="92dp"
+        android:layout_x="74dp"
+        android:layout_y="420dp"
+        android:textSize="50dp" />
+
+
+</AbsoluteLayout>

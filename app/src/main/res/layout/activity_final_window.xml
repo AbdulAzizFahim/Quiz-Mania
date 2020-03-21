@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalWindow">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/image"
+
+        />
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="410dp"
+        android:layout_height="130dp"
+        android:background="#F96167 "
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="35dp"
+        android:paddingStart="90dp"
+        android:text="Quiz Mania"
+        android:textColor="#FDFEFE"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Your Score "
+        android:layout_marginStart="110dp"
+        android:textSize="40dp"
+        />
+
+    <TextView
+
+        android:textAlignment="center"
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="250dp"
+        android:textSize="40dp" />
+
+    <EditText
+
+
+        android:id="@+id/nam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="360dp"
+        android:hint="Enter your name:"
+        android:textColor="#223961"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#A7A7A7"
+        android:textColorLink="#000000"
+        android:textCursorDrawable="@android:color/black"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/butam"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="450dp"
+        android:background="#F96167 "
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Save"
+        android:textColor="#FDFEFE"
+        android:textSize="30dp" />
+
+
+</FrameLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204757"
+    tools:context=".Menu">
+
+
+    <TextView
+
+
+        android:layout_width="810dp"
+        android:layout_height="130dp"
+        android:background="#F96167 "
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="40dp"
+        android:paddingStart="100dp"
+        android:text="Quiz Mania"
+        android:textColor="#050505"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="220dp"
+        android:background="#F9D342"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Start"
+        android:textColor="#0D0E0E"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/scoreButton"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="370dp"
+        android:background="#F9D342"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Score"
+        android:textColor="#030303"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="520dp"
+        android:background="#F9D342"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Exit"
+        android:textColor="#080909"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

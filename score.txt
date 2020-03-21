@@ -1,0 +1,5 @@
+Fahim          100
+lazim           50
+lazim           30
+lazim           20
+lazim           10
