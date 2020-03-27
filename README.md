@@ -1,4 +1,6 @@
 # Quiz Mania
+# Student ID : 18-01-04-125
+# Lab Section : C2
 
 ## Software Development (III) project
 **Project Name:** Quiz Mania 
